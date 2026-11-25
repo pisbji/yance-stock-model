@@ -1,0 +1,13 @@
+interface:
+  display_name: Yance AI 主线交易模型 V3.0
+  short_description: 按你的 Q、B、P 原始评分表筛选股票，核对交易门槛、买点与失效条件
+  default_prompt: 用 $yance-stock-model 按 V3.0 扫描 A 股和港股，各选最多两只达标候选，给出买入触发条件和放弃条件。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
